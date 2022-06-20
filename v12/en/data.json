@@ -145,7 +145,7 @@
                         	"section":"<span class='application'>CompleteExampleMaximo</span> is very similar to <span class='application'>ExampleMaximo</span> but the message flow which it contains, named  <span class='application'>ExampleMaximoFlow</span> (which exposes a different URL Fragment), has already had its IBM Maximo Request node configured, and an associated policy with connection information has already been generated. If you're already familiar with connector discovery, this application may be helpful to demonstrate some administration concepts such as reusing discovered artifacts, editting policies and updating credentials."
                         },
                         {
-			    			"section": "<span class='application'>CompletePolicyProjectMaximo</span> contains a single policy named <span class='application'>Maximo1</span> which is used by the application <span class='application'>CompleteExampleMaximo</span>."							
+			    			"section": "<span class='application'>CompletePolicyProjectMaximo</span> contains a single policy named <span class='application'>IBMMaximo1</span> which is used by the application <span class='application'>CompleteExampleMaximo</span>."							
 						}
                     ]
                 },
