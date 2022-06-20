@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policies>
+  <policy policyType="maximo" policyName="IBMMaximo1" policyTemplate="">
+    <applicationType>onprem</applicationType>
+    <applicationVersion>v1</applicationVersion>
+    <authorizationMethod>BASIC</authorizationMethod>
+    <endpointUrl>REPLACE_WITH_YOUR_MAXIMO_URL</endpointUrl>
+    <credentialName>CompletePolicyProjectMaximo_IBMMaximo1</credentialName>
+  </policy>
+</policies>

@@ -7,7 +7,17 @@
     <colorGraphic16 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/CompleteExampleMaximo/icons/full/obj16/CompleteExampleMaximoFlow.gif"/>
     <colorGraphic32 xmi:type="utility:GIFFileGraphic" resourceName="platform:/plugin/CompleteExampleMaximo/icons/full/obj30/CompleteExampleMaximoFlow.gif"/>
     <composition>
-      <nodes xmi:type="ComIbmApplicationConnectorRequest_maximo.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_1" location="422,89" applicationConnectorType="maximo">
+      <nodes xmi:type="ComIbmApplicationConnectorRequest_maximo.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_1" location="422,89" applicationConnectorType="maximo" action="RETRIEVEALL" businessObject="mxapiasset" displayName="Retrieve assets" policyUrl="{CompletePolicyProjectMaximo}:IBMMaximo1">
+        <filter>
+          <filterElementObject type="where">
+            <filterElementArray type="and">
+              <filterProperty propertyName="siteid" displayName=" Site (siteid)" propertyValue="BEDFORD" compareAction=""/>
+              <filterProperty propertyName="serialnum" displayName=" Serial # (serialnum)" propertyValue="234RW3" compareAction=""/>
+            </filterElementArray>
+          </filterElementObject>
+          <queryProperties limit="3" allowTruncation="true" paginationType="TOKEN"/>
+          <propagateBehaviour allowEmptyOutput="false"/>
+        </filter>
         <translation xmi:type="utility:ConstantString" string="IBM Maximo Request"/>
       </nodes>
       <nodes xmi:type="ComIbmWSReply.msgnode:FCMComposite_1" xmi:id="FCMComposite_1_2" location="420,33">

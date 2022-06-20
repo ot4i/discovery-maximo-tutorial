@@ -1,0 +1,1910 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "items": {
+    "type": "object",
+    "properties": {
+      "expectedlifedate": {
+        "displayOrder": 1,
+        "title": " Expected EOL (expectedlifedate)",
+        "type": "string",
+        "format": "date-time"
+      },
+      "parent": {
+        "displayOrder": 2,
+        "title": " Parent (parent)",
+        "type": "string"
+      },
+      "installdate": {
+        "displayOrder": 3,
+        "title": " Installation Date (installdate)",
+        "type": "string",
+        "format": "date-time"
+      },
+      "pluscsumeu": {
+        "displayOrder": 4,
+        "title": " Accuracy EU (pluscsumeu)",
+        "type": "string"
+      },
+      "eq1": {
+        "displayOrder": 5,
+        "title": " Eq1 (eq1)",
+        "type": "string"
+      },
+      "productid": {
+        "displayOrder": 6,
+        "title": " Product ID (productid)",
+        "type": "string"
+      },
+      "eq3": {
+        "displayOrder": 7,
+        "title": " Eq3 (eq3)",
+        "type": "string"
+      },
+      "moddowntimehist": {
+        "displayOrder": 8,
+        "title": "MODDOWNTIMEHIST",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "startwonum": {
+              "displayOrder": 1,
+              "title": " Start Work Order (startwonum)",
+              "type": "string"
+            },
+            "startdate": {
+              "displayOrder": 2,
+              "title": " Start Date (startdate)",
+              "type": "string",
+              "format": "date-time"
+            },
+            "orgid": {
+              "displayOrder": 3,
+              "title": " Organization (orgid)",
+              "type": "string"
+            },
+            "downtime": {
+              "displayOrder": 4,
+              "title": " Downtime (downtime)",
+              "type": "number"
+            },
+            "endcode": {
+              "displayOrder": 5,
+              "title": " End Code (endcode)",
+              "type": "string"
+            },
+            "enddate": {
+              "displayOrder": 6,
+              "title": " End Date (enddate)",
+              "type": "string",
+              "format": "date-time"
+            },
+            "startcode": {
+              "displayOrder": 7,
+              "title": " Start Code (startcode)",
+              "type": "string"
+            },
+            "endoperational": {
+              "displayOrder": 8,
+              "title": " End Operational Type (endoperational)",
+              "type": "string"
+            },
+            "endwonum": {
+              "displayOrder": 9,
+              "title": " End Work Order (endwonum)",
+              "type": "string"
+            },
+            "startoperational": {
+              "displayOrder": 10,
+              "title": " Start Operational Type (startoperational)",
+              "type": "string"
+            }
+          }
+        }
+      },
+      "eq2": {
+        "displayOrder": 9,
+        "title": " Eq2 (eq2)",
+        "type": "string"
+      },
+      "usage": {
+        "displayOrder": 10,
+        "title": " Usage (usage)",
+        "type": "string"
+      },
+      "eq5": {
+        "displayOrder": 11,
+        "title": " Eq5 (eq5)",
+        "type": "number"
+      },
+      "eq4": {
+        "displayOrder": 12,
+        "title": " Eq4 (eq4)",
+        "type": "string"
+      },
+      "eq7": {
+        "displayOrder": 13,
+        "title": " Eq7 (eq7)",
+        "type": "number"
+      },
+      "eq6": {
+        "displayOrder": 14,
+        "title": " Eq6 (eq6)",
+        "type": "string",
+        "format": "date-time"
+      },
+      "industryhealthscore": {
+        "displayOrder": 15,
+        "title": " Industry Standard Health Score (industryhealthscore)",
+        "type": "number"
+      },
+      "eq9": {
+        "displayOrder": 16,
+        "title": " Eq9 (eq9)",
+        "type": "string"
+      },
+      "pluscsumspan": {
+        "displayOrder": 17,
+        "title": " %SPAN (pluscsumspan)",
+        "type": "string"
+      },
+      "eq8": {
+        "displayOrder": 18,
+        "title": " Eq8 (eq8)",
+        "type": "string"
+      },
+      "startmeasure": {
+        "displayOrder": 19,
+        "title": " Start Measure (startmeasure)",
+        "type": "number"
+      },
+      "devicetype": {
+        "displayOrder": 20,
+        "title": " Device Type (devicetype)",
+        "type": "string"
+      },
+      "pluscisinhousecal": {
+        "displayOrder": 21,
+        "title": " Internal Calibration (pluscisinhousecal)",
+        "type": "boolean"
+      },
+      "pluscvendor": {
+        "displayOrder": 22,
+        "title": " Calibration Vendor (pluscvendor)",
+        "type": "string"
+      },
+      "rotsuspacct": {
+        "displayOrder": 23,
+        "title": " Rotating Suspense Account (rotsuspacct)",
+        "type": "string"
+      },
+      "totunchargedcost": {
+        "displayOrder": 24,
+        "title": " Total Uncharged Cost (totunchargedcost)",
+        "type": "number"
+      },
+      "children": {
+        "displayOrder": 25,
+        "title": " Children (children)",
+        "type": "boolean"
+      },
+      "toolrate": {
+        "displayOrder": 26,
+        "title": " Tool Rate (toolrate)",
+        "type": "number"
+      },
+      "removefromactivesp": {
+        "displayOrder": 27,
+        "title": " Remove Asset Reference from Active Safety Plans (removefromactivesp)",
+        "type": "boolean"
+      },
+      "pluscoprgeto": {
+        "displayOrder": 28,
+        "title": " To (pluscoprgeto)",
+        "type": "string"
+      },
+      "mainthierchy": {
+        "displayOrder": 29,
+        "title": " Maintain Hierarchy (mainthierchy)",
+        "type": "boolean"
+      },
+      "methodname": {
+        "displayOrder": 30,
+        "title": " Scoring Method (methodname)",
+        "type": "string"
+      },
+      "modelid": {
+        "displayOrder": 31,
+        "title": " Import ID (modelid)",
+        "type": "string"
+      },
+      "enddescription": {
+        "displayOrder": 32,
+        "title": " Asset End (enddescription)",
+        "type": "string"
+      },
+      "ancestor": {
+        "displayOrder": 33,
+        "title": " Ancestor (ancestor)",
+        "type": "string"
+      },
+      "binnum": {
+        "displayOrder": 34,
+        "title": " Bin (binnum)",
+        "type": "string"
+      },
+      "depreciationpending": {
+        "displayOrder": 35,
+        "title": " Depreciation Pending (depreciationpending)",
+        "type": "boolean"
+      },
+      "assetmeter": {
+        "displayOrder": 36,
+        "title": "ASSETMETER",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "sinceinstall": {
+              "displayOrder": 1,
+              "title": " Since Install (sinceinstall)",
+              "type": "number"
+            },
+            "startassetfeatureid": {
+              "displayOrder": 2,
+              "title": " Start Asset Feature ID (startassetfeatureid)",
+              "type": "number"
+            },
+            "devicestatus": {
+              "displayOrder": 3,
+              "title": " Device Status (devicestatus)",
+              "type": "string"
+            },
+            "startmeasure": {
+              "displayOrder": 4,
+              "title": " Start Measure (startmeasure)",
+              "type": "number"
+            },
+            "devicetype": {
+              "displayOrder": 5,
+              "title": " Device Type (devicetype)",
+              "type": "string"
+            },
+            "domainid": {
+              "displayOrder": 6,
+              "title": " Domain (domainid)",
+              "type": "string"
+            },
+            "endoffsetunitid": {
+              "displayOrder": 7,
+              "title": " Unit of End Offset (endoffsetunitid)",
+              "type": "string"
+            },
+            "sincelastinspect": {
+              "displayOrder": 8,
+              "title": " Since Last Inspection (sincelastinspect)",
+              "type": "number"
+            },
+            "startmeasureunitid": {
+              "displayOrder": 9,
+              "title": " Unit of Start Measure (startmeasureunitid)",
+              "type": "string"
+            },
+            "endzoffset": {
+              "displayOrder": 10,
+              "title": " End Z Offset (endzoffset)",
+              "type": "number"
+            },
+            "endbasemeasure": {
+              "displayOrder": 11,
+              "title": " End Base Measure (endbasemeasure)",
+              "type": "number"
+            },
+            "active": {
+              "displayOrder": 12,
+              "title": " Active (active)",
+              "type": "boolean"
+            },
+            "changedate": {
+              "displayOrder": 13,
+              "title": " Changed Date (changedate)",
+              "type": "string",
+              "format": "date-time"
+            },
+            "orgid": {
+              "displayOrder": 14,
+              "title": " Organization (orgid)",
+              "type": "string"
+            },
+            "previousreadingdate": {
+              "displayOrder": 15,
+              "title": " Previous Reading Date (previousreadingdate)",
+              "type": "string",
+              "format": "date-time"
+            },
+            "sincelastrepair": {
+              "displayOrder": 16,
+              "title": " Since Last Repair (sincelastrepair)",
+              "type": "number"
+            },
+            "startoffsetunitid": {
+              "displayOrder": 17,
+              "title": " Unit of Start Offset (startoffsetunitid)",
+              "type": "string"
+            },
+            "sequence": {
+              "displayOrder": 18,
+              "title": " Sequence (sequence)",
+              "type": "number"
+            },
+            "startfeatureid": {
+              "displayOrder": 19,
+              "title": " StartFeature ID (startfeatureid)",
+              "type": "number"
+            },
+            "startfeature": {
+              "displayOrder": 20,
+              "title": " Start Feature (startfeature)",
+              "type": "string"
+            },
+            "measureunitid": {
+              "displayOrder": 21,
+              "title": " Unit of Measure (measureunitid)",
+              "type": "string"
+            },
+            "meterreading": {
+              "displayOrder": 22,
+              "title": "METERREADING",
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "reason": {
+                    "displayOrder": 1,
+                    "title": " Reason (reason)",
+                    "type": "string"
+                  },
+                  "rolldownid": {
+                    "displayOrder": 2,
+                    "title": " Rolldown Identifier (rolldownid)",
+                    "type": "number"
+                  },
+                  "locmeterreadingid": {
+                    "displayOrder": 3,
+                    "title": " Location Meter Reading Identifier (locmeterreadingid)",
+                    "type": "number"
+                  },
+                  "meterreadingid": {
+                    "displayOrder": 4,
+                    "title": " Meter Reading ID (meterreadingid)",
+                    "type": "number"
+                  },
+                  "startassetfeatureid": {
+                    "displayOrder": 5,
+                    "title": " Start Feature (startassetfeatureid)",
+                    "type": "number"
+                  },
+                  "delta": {
+                    "displayOrder": 6,
+                    "title": " Delta (delta)",
+                    "type": "number"
+                  },
+                  "readingdate": {
+                    "displayOrder": 7,
+                    "title": " Reading Date (readingdate)",
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "startmeasure": {
+                    "displayOrder": 8,
+                    "title": " Start Measure (startmeasure)",
+                    "type": "number"
+                  },
+                  "endoffsetunitid": {
+                    "displayOrder": 9,
+                    "title": " Unit of End Offset (endoffsetunitid)",
+                    "type": "string"
+                  },
+                  "inheritedfromasset": {
+                    "displayOrder": 10,
+                    "title": " Inherited From (inheritedfromasset)",
+                    "type": "string"
+                  },
+                  "startmeasureunitid": {
+                    "displayOrder": 11,
+                    "title": " Unit of Start Measure (startmeasureunitid)",
+                    "type": "string"
+                  },
+                  "endzoffset": {
+                    "displayOrder": 12,
+                    "title": " End Z Offset (endzoffset)",
+                    "type": "number"
+                  },
+                  "modified": {
+                    "displayOrder": 13,
+                    "title": " Modified (modified)",
+                    "type": "boolean"
+                  },
+                  "endbasemeasure": {
+                    "displayOrder": 14,
+                    "title": " End Base Measure (endbasemeasure)",
+                    "type": "number"
+                  },
+                  "orgid": {
+                    "displayOrder": 15,
+                    "title": " Organization (orgid)",
+                    "type": "string"
+                  },
+                  "startoffsetunitid": {
+                    "displayOrder": 16,
+                    "title": " Unit of Start Offset (startoffsetunitid)",
+                    "type": "string"
+                  },
+                  "enterby": {
+                    "displayOrder": 17,
+                    "title": " Entered By (enterby)",
+                    "type": "string"
+                  },
+                  "measureunitid": {
+                    "displayOrder": 18,
+                    "title": " Unit of Measure (measureunitid)",
+                    "type": "string"
+                  },
+                  "startoffset": {
+                    "displayOrder": 19,
+                    "title": " Start Offset (startoffset)",
+                    "type": "number"
+                  },
+                  "endassetfeatureid": {
+                    "displayOrder": 20,
+                    "title": " End Feature (endassetfeatureid)",
+                    "type": "number"
+                  },
+                  "dorollover": {
+                    "displayOrder": 21,
+                    "title": " Rollover (dorollover)",
+                    "type": "boolean"
+                  },
+                  "endmeasureunitid": {
+                    "displayOrder": 22,
+                    "title": " Unit of End Measure (endmeasureunitid)",
+                    "type": "string"
+                  },
+                  "endoffset": {
+                    "displayOrder": 23,
+                    "title": " End Offset (endoffset)",
+                    "type": "number"
+                  },
+                  "startfeaturelabel": {
+                    "displayOrder": 24,
+                    "title": " Reference Point (startfeaturelabel)",
+                    "type": "string"
+                  },
+                  "endfeaturelabel": {
+                    "displayOrder": 25,
+                    "title": " Reference Point (endfeaturelabel)",
+                    "type": "string"
+                  },
+                  "endyoffsetref": {
+                    "displayOrder": 26,
+                    "title": " End Y Offset Referent (endyoffsetref)",
+                    "type": "string"
+                  },
+                  "startzoffset": {
+                    "displayOrder": 27,
+                    "title": " Start Z Offset (startzoffset)",
+                    "type": "number"
+                  },
+                  "rollover": {
+                    "displayOrder": 28,
+                    "title": " Rollover (rollover)",
+                    "type": "number"
+                  },
+                  "startzoffsetref": {
+                    "displayOrder": 29,
+                    "title": " Start Z Offset Referent (startzoffsetref)",
+                    "type": "string"
+                  },
+                  "startyoffsetref": {
+                    "displayOrder": 30,
+                    "title": " Start Y Offset Referent (startyoffsetref)",
+                    "type": "string"
+                  },
+                  "enterdate": {
+                    "displayOrder": 31,
+                    "title": " Entered Date (enterdate)",
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "basemeasureunitid": {
+                    "displayOrder": 32,
+                    "title": " Unit of Base Measure (basemeasureunitid)",
+                    "type": "string"
+                  },
+                  "endmeasure": {
+                    "displayOrder": 33,
+                    "title": " End Measure (endmeasure)",
+                    "type": "number"
+                  },
+                  "startyoffset": {
+                    "displayOrder": 34,
+                    "title": " Start Y Offset (startyoffset)",
+                    "type": "number"
+                  },
+                  "reading": {
+                    "displayOrder": 35,
+                    "title": " Reading (reading)",
+                    "type": "number"
+                  },
+                  "didrollover": {
+                    "displayOrder": 36,
+                    "title": " Did Reading Roll Over (didrollover)",
+                    "type": "boolean"
+                  },
+                  "inspector": {
+                    "displayOrder": 37,
+                    "title": " Inspector (inspector)",
+                    "type": "string"
+                  },
+                  "readingsource": {
+                    "displayOrder": 38,
+                    "title": " Source (readingsource)",
+                    "type": "string"
+                  },
+                  "endyoffset": {
+                    "displayOrder": 39,
+                    "title": " End Y Offset (endyoffset)",
+                    "type": "number"
+                  },
+                  "assetid": {
+                    "displayOrder": 40,
+                    "title": " Asset (assetid)",
+                    "type": "number"
+                  },
+                  "matusetransid": {
+                    "displayOrder": 41,
+                    "title": " Issue Identifier (matusetransid)",
+                    "type": "number"
+                  },
+                  "readingtype": {
+                    "displayOrder": 42,
+                    "title": " Reading Type (readingtype)",
+                    "type": "string"
+                  },
+                  "rolldownsource": {
+                    "displayOrder": 43,
+                    "title": " Rolldown Source (rolldownsource)",
+                    "type": "string"
+                  },
+                  "startbasemeasure": {
+                    "displayOrder": 44,
+                    "title": " Start Base Measure (startbasemeasure)",
+                    "type": "number"
+                  },
+                  "endzoffsetref": {
+                    "displayOrder": 45,
+                    "title": " End Z Offset Referent (endzoffsetref)",
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "metername": {
+              "displayOrder": 23,
+              "title": " Meter (metername)",
+              "type": "string"
+            },
+            "startoffset": {
+              "displayOrder": 24,
+              "title": " Start Offset (startoffset)",
+              "type": "number"
+            },
+            "endassetfeatureid": {
+              "displayOrder": 25,
+              "title": " End Asset Feature ID (endassetfeatureid)",
+              "type": "number"
+            },
+            "dorollover": {
+              "displayOrder": 26,
+              "title": " Rollover (dorollover)",
+              "type": "boolean"
+            },
+            "slidingwindowsize": {
+              "displayOrder": 27,
+              "title": " Sliding Window Size (slidingwindowsize)",
+              "type": "number"
+            },
+            "pointnum": {
+              "displayOrder": 28,
+              "title": " Point (pointnum)",
+              "type": "string"
+            },
+            "average": {
+              "displayOrder": 29,
+              "title": " Average Units/Day (average)",
+              "type": "number"
+            },
+            "endfeature": {
+              "displayOrder": 30,
+              "title": " End Feature (endfeature)",
+              "type": "string"
+            },
+            "lastreadingdate": {
+              "displayOrder": 31,
+              "title": " Last Reading Date (lastreadingdate)",
+              "type": "string",
+              "format": "date-time"
+            },
+            "linearassetmeterid": {
+              "displayOrder": 32,
+              "title": " Linear Specification Id (linearassetmeterid)",
+              "type": "number"
+            },
+            "endmeasureunitid": {
+              "displayOrder": 33,
+              "title": " Unit of End Measure (endmeasureunitid)",
+              "type": "string"
+            },
+            "endoffset": {
+              "displayOrder": 34,
+              "title": " End Offset (endoffset)",
+              "type": "number"
+            },
+            "newreading": {
+              "displayOrder": 35,
+              "title": " New Reading (newreading)",
+              "type": "string"
+            },
+            "lastreading": {
+              "displayOrder": 36,
+              "title": " Last Reading (lastreading)",
+              "type": "string"
+            },
+            "measurement": {
+              "displayOrder": 37,
+              "title": "MEASUREMENT",
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "startassetfeatureid": {
+                    "displayOrder": 1,
+                    "title": " Start Feature (startassetfeatureid)",
+                    "type": "number"
+                  },
+                  "endmeasureunitid": {
+                    "displayOrder": 2,
+                    "title": " Unit of End Measure (endmeasureunitid)",
+                    "type": "string"
+                  },
+                  "endoffset": {
+                    "displayOrder": 3,
+                    "title": " End Offset (endoffset)",
+                    "type": "number"
+                  },
+                  "startmeasure": {
+                    "displayOrder": 4,
+                    "title": " Start Measure (startmeasure)",
+                    "type": "number"
+                  },
+                  "endoffsetunitid": {
+                    "displayOrder": 5,
+                    "title": " Unit of End Offset (endoffsetunitid)",
+                    "type": "string"
+                  },
+                  "startmeasureunitid": {
+                    "displayOrder": 6,
+                    "title": " Unit of Start Measure (startmeasureunitid)",
+                    "type": "string"
+                  },
+                  "endzoffset": {
+                    "displayOrder": 7,
+                    "title": " End Z Offset (endzoffset)",
+                    "type": "number"
+                  },
+                  "endyoffsetref": {
+                    "displayOrder": 8,
+                    "title": " End Y Offset Referent (endyoffsetref)",
+                    "type": "string"
+                  },
+                  "startzoffset": {
+                    "displayOrder": 9,
+                    "title": " Start Z Offset (startzoffset)",
+                    "type": "number"
+                  },
+                  "startzoffsetref": {
+                    "displayOrder": 10,
+                    "title": " Start Z Offset Referent (startzoffsetref)",
+                    "type": "string"
+                  },
+                  "measuredate": {
+                    "displayOrder": 11,
+                    "title": " Measurement Date (measuredate)",
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "startyoffsetref": {
+                    "displayOrder": 12,
+                    "title": " Start Y Offset Referent (startyoffsetref)",
+                    "type": "string"
+                  },
+                  "endbasemeasure": {
+                    "displayOrder": 13,
+                    "title": " End Base Measure (endbasemeasure)",
+                    "type": "number"
+                  },
+                  "observation": {
+                    "displayOrder": 14,
+                    "title": " Observation (observation)",
+                    "type": "string"
+                  },
+                  "basemeasureunitid": {
+                    "displayOrder": 15,
+                    "title": " Unit of Base Measure (basemeasureunitid)",
+                    "type": "string"
+                  },
+                  "endmeasure": {
+                    "displayOrder": 16,
+                    "title": " End Measure (endmeasure)",
+                    "type": "number"
+                  },
+                  "startyoffset": {
+                    "displayOrder": 17,
+                    "title": " Start Y Offset (startyoffset)",
+                    "type": "number"
+                  },
+                  "inspector": {
+                    "displayOrder": 18,
+                    "title": " Inspector (inspector)",
+                    "type": "string"
+                  },
+                  "measurementvalue": {
+                    "displayOrder": 19,
+                    "title": " Measurement (measurementvalue)",
+                    "type": "number"
+                  },
+                  "orgid": {
+                    "displayOrder": 20,
+                    "title": " Organization (orgid)",
+                    "type": "string"
+                  },
+                  "startoffsetunitid": {
+                    "displayOrder": 21,
+                    "title": " Unit of Start Offset (startoffsetunitid)",
+                    "type": "string"
+                  },
+                  "endyoffset": {
+                    "displayOrder": 22,
+                    "title": " End Y Offset (endyoffset)",
+                    "type": "number"
+                  },
+                  "startoffset": {
+                    "displayOrder": 23,
+                    "title": " Start Offset (startoffset)",
+                    "type": "number"
+                  },
+                  "assetid": {
+                    "displayOrder": 24,
+                    "title": " Asset ID (assetid)",
+                    "type": "number"
+                  },
+                  "endassetfeatureid": {
+                    "displayOrder": 25,
+                    "title": " End Feature (endassetfeatureid)",
+                    "type": "number"
+                  },
+                  "location": {
+                    "displayOrder": 26,
+                    "title": " Location (location)",
+                    "type": "string"
+                  },
+                  "measurementid": {
+                    "displayOrder": 27,
+                    "title": " Measurement (measurementid)",
+                    "type": "number"
+                  },
+                  "startbasemeasure": {
+                    "displayOrder": 28,
+                    "title": " Start Base Measure (startbasemeasure)",
+                    "type": "number"
+                  },
+                  "endzoffsetref": {
+                    "displayOrder": 29,
+                    "title": " End Z Offset Referent (endzoffsetref)",
+                    "type": "string"
+                  },
+                  "pointnum": {
+                    "displayOrder": 30,
+                    "title": " Measurement Point (pointnum)",
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "endyoffsetref": {
+              "displayOrder": 38,
+              "title": " End Y Offset Referent (endyoffsetref)",
+              "type": "string"
+            },
+            "startzoffset": {
+              "displayOrder": 39,
+              "title": " Start Z Offset (startzoffset)",
+              "type": "number"
+            },
+            "rollover": {
+              "displayOrder": 40,
+              "title": " Rollover (rollover)",
+              "type": "number"
+            },
+            "startzoffsetref": {
+              "displayOrder": 41,
+              "title": " Start Z Offset Referent (startzoffsetref)",
+              "type": "string"
+            },
+            "newreadingdate": {
+              "displayOrder": 42,
+              "title": " New Reading Date (newreadingdate)",
+              "type": "string",
+              "format": "date-time"
+            },
+            "startyoffsetref": {
+              "displayOrder": 43,
+              "title": " Start Y Offset Referent (startyoffsetref)",
+              "type": "string"
+            },
+            "avgcalcmethod": {
+              "displayOrder": 44,
+              "title": " Average Calculation Method (avgcalcmethod)",
+              "type": "string"
+            },
+            "basemeasureunitid": {
+              "displayOrder": 45,
+              "title": " Unit of Base Measure (basemeasureunitid)",
+              "type": "string"
+            },
+            "changeby": {
+              "displayOrder": 46,
+              "title": " Changed By (changeby)",
+              "type": "string"
+            },
+            "endmeasure": {
+              "displayOrder": 47,
+              "title": " End Measure (endmeasure)",
+              "type": "number"
+            },
+            "startyoffset": {
+              "displayOrder": 48,
+              "title": " Start Y Offset (startyoffset)",
+              "type": "number"
+            },
+            "inspector": {
+              "displayOrder": 49,
+              "title": " Inspector (inspector)",
+              "type": "string"
+            },
+            "lastreadinginspctr": {
+              "displayOrder": 50,
+              "title": " Last Reading Inspector (lastreadinginspctr)",
+              "type": "string"
+            },
+            "endfeatureid": {
+              "displayOrder": 51,
+              "title": " EndFeature ID (endfeatureid)",
+              "type": "number"
+            },
+            "deviceid": {
+              "displayOrder": 52,
+              "title": " Device ID (deviceid)",
+              "type": "string"
+            },
+            "assetmeterid": {
+              "displayOrder": 53,
+              "title": " ASSETMETERID (assetmeterid)",
+              "type": "number"
+            },
+            "endyoffset": {
+              "displayOrder": 54,
+              "title": " End Y Offset (endyoffset)",
+              "type": "number"
+            },
+            "lifetodate": {
+              "displayOrder": 55,
+              "title": " Life to Date for Asset (lifetodate)",
+              "type": "number"
+            },
+            "sincelastoverhaul": {
+              "displayOrder": 56,
+              "title": " Since Last Overhaul (sincelastoverhaul)",
+              "type": "number"
+            },
+            "previousreading": {
+              "displayOrder": 57,
+              "title": " Previous Reading (previousreading)",
+              "type": "string"
+            },
+            "readingtype": {
+              "displayOrder": 58,
+              "title": " Reading Type (readingtype)",
+              "type": "string"
+            },
+            "rolldownsource": {
+              "displayOrder": 59,
+              "title": " Accept Rolldown From (rolldownsource)",
+              "type": "string"
+            },
+            "startbasemeasure": {
+              "displayOrder": 60,
+              "title": " Start Base Measure (startbasemeasure)",
+              "type": "number"
+            },
+            "endzoffsetref": {
+              "displayOrder": 61,
+              "title": " End Z Offset Referent (endzoffsetref)",
+              "type": "string"
+            },
+            "remarks": {
+              "displayOrder": 62,
+              "title": " Remarks (remarks)",
+              "type": "string"
+            }
+          }
+        }
+      },
+      "estendoflife": {
+        "displayOrder": 37,
+        "title": " Estimated EOL (estendoflife)",
+        "type": "string",
+        "format": "date-time"
+      },
+      "replacecost": {
+        "displayOrder": 38,
+        "title": " Replacement Cost (replacecost)",
+        "type": "number"
+      },
+      "industryhealthgrade": {
+        "displayOrder": 39,
+        "title": " Industry Standard Health Grade (industryhealthgrade)",
+        "type": "string"
+      },
+      "priority": {
+        "displayOrder": 40,
+        "title": " Priority (priority)",
+        "type": "number"
+      },
+      "groupname": {
+        "displayOrder": 41,
+        "title": " Meter Group (groupname)",
+        "type": "string"
+      },
+      "rolltoallchildren": {
+        "displayOrder": 42,
+        "title": " Roll New Status to All Child Assets (rolltoallchildren)",
+        "type": "boolean"
+      },
+      "pluscismteclass": {
+        "displayOrder": 43,
+        "title": " M&TE Classification (pluscismteclass)",
+        "type": "string"
+      },
+      "saddresscode": {
+        "displayOrder": 44,
+        "title": " Service Address (saddresscode)",
+        "type": "string"
+      },
+      "status": {
+        "displayOrder": 45,
+        "title": " Status (status)",
+        "type": "string"
+      },
+      "hierarchypath": {
+        "displayOrder": 46,
+        "title": " Hierarchy Path (hierarchypath)",
+        "type": "string"
+      },
+      "serviceaddress": {
+        "displayOrder": 47,
+        "title": "SERVICEADDRESS",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "country": {
+              "displayOrder": 1,
+              "title": " Country (country)",
+              "type": "string"
+            },
+            "parent": {
+              "displayOrder": 2,
+              "title": " Parent Address (parent)",
+              "type": "string"
+            },
+            "latitudey": {
+              "displayOrder": 3,
+              "title": " Latitude(Y) (latitudey)",
+              "type": "number"
+            },
+            "staddrdirprfx": {
+              "displayOrder": 4,
+              "title": " Direction Prefix (staddrdirprfx)",
+              "type": "string"
+            },
+            "city": {
+              "displayOrder": 5,
+              "title": " City (city)",
+              "type": "string"
+            },
+            "timezone": {
+              "displayOrder": 6,
+              "title": " Time Zone (timezone)",
+              "type": "string"
+            },
+            "county": {
+              "displayOrder": 7,
+              "title": " County (county)",
+              "type": "string"
+            },
+            "referencepoint": {
+              "displayOrder": 8,
+              "title": " Reference Point (referencepoint)",
+              "type": "string"
+            },
+            "description": {
+              "displayOrder": 9,
+              "title": " Description (description)",
+              "type": "string"
+            },
+            "staddrnumber": {
+              "displayOrder": 10,
+              "title": " House Number (staddrnumber)",
+              "type": "string"
+            },
+            "addresscode": {
+              "displayOrder": 11,
+              "title": " Address Code (addresscode)",
+              "type": "string"
+            },
+            "staddrunitnum": {
+              "displayOrder": 12,
+              "title": " Apartment/Unit/Suite (staddrunitnum)",
+              "type": "string"
+            },
+            "serviceaddressid": {
+              "displayOrder": 13,
+              "title": " Unique Id (serviceaddressid)",
+              "type": "number"
+            },
+            "postalcode": {
+              "displayOrder": 14,
+              "title": " Zip/Postal Code (postalcode)",
+              "type": "string"
+            },
+            "streetaddress": {
+              "displayOrder": 15,
+              "title": " Street Address (streetaddress)",
+              "type": "string"
+            },
+            "staddrstreet": {
+              "displayOrder": 16,
+              "title": " Street Name (staddrstreet)",
+              "type": "string"
+            },
+            "isweatherzone": {
+              "displayOrder": 17,
+              "title": " Weather Alert Zone (isweatherzone)",
+              "type": "boolean"
+            },
+            "staddrsttype": {
+              "displayOrder": 18,
+              "title": " Street Type (staddrsttype)",
+              "type": "string"
+            },
+            "objectname": {
+              "displayOrder": 19,
+              "title": " Maximo Object (objectname)",
+              "type": "string"
+            },
+            "formattedaddress": {
+              "displayOrder": 20,
+              "title": " Formatted Address (formattedaddress)",
+              "type": "string"
+            },
+            "stateprovince": {
+              "displayOrder": 21,
+              "title": " State/Province (stateprovince)",
+              "type": "string"
+            },
+            "orgid": {
+              "displayOrder": 22,
+              "title": " Organization (orgid)",
+              "type": "string"
+            },
+            "staddrdirsfx": {
+              "displayOrder": 23,
+              "title": " Direction Suffix (staddrdirsfx)",
+              "type": "string"
+            },
+            "directions": {
+              "displayOrder": 24,
+              "title": " Directions (directions)",
+              "type": "string"
+            },
+            "regiondistrict": {
+              "displayOrder": 25,
+              "title": " Region/District (regiondistrict)",
+              "type": "string"
+            },
+            "addressline3": {
+              "displayOrder": 26,
+              "title": " Address Line 3 (addressline3)",
+              "type": "string"
+            },
+            "geocode": {
+              "displayOrder": 27,
+              "title": " GEO Code (geocode)",
+              "type": "string"
+            },
+            "longitudex": {
+              "displayOrder": 28,
+              "title": " Longitude(X) (longitudex)",
+              "type": "number"
+            },
+            "addressline2": {
+              "displayOrder": 29,
+              "title": " Address Line 2 (addressline2)",
+              "type": "string"
+            }
+          }
+        }
+      },
+      "pluscassetdept": {
+        "displayOrder": 48,
+        "title": " Asset Department (pluscassetdept)",
+        "type": "string"
+      },
+      "plusciscondesc": {
+        "displayOrder": 49,
+        "title": " Is Contaminated Description (plusciscondesc)",
+        "type": "string"
+      },
+      "pluscloopnum": {
+        "displayOrder": 50,
+        "title": " Loop Number (pluscloopnum)",
+        "type": "string"
+      },
+      "pluscoprgefrom": {
+        "displayOrder": 51,
+        "title": " Operating Range From (pluscoprgefrom)",
+        "type": "string"
+      },
+      "manufacturer": {
+        "displayOrder": 52,
+        "title": " Manufacturer (manufacturer)",
+        "type": "string"
+      },
+      "totdowntime": {
+        "displayOrder": 53,
+        "title": " Total Downtime (totdowntime)",
+        "type": "number"
+      },
+      "startdescription": {
+        "displayOrder": 54,
+        "title": " Asset Start (startdescription)",
+        "type": "string"
+      },
+      "pluscpmextdate": {
+        "displayOrder": 55,
+        "title": " Extend Date (pluscpmextdate)",
+        "type": "boolean"
+      },
+      "vendor": {
+        "displayOrder": 56,
+        "title": " Vendor (vendor)",
+        "type": "string"
+      },
+      "assetnum": {
+        "displayOrder": 57,
+        "title": " Asset (assetnum)",
+        "type": "string"
+      },
+      "disabled": {
+        "displayOrder": 58,
+        "title": " Disabled (disabled)",
+        "type": "boolean"
+      },
+      "assettype": {
+        "displayOrder": 59,
+        "title": " Type (assettype)",
+        "type": "string"
+      },
+      "conditioncode": {
+        "displayOrder": 60,
+        "title": " Condition Code (conditioncode)",
+        "type": "string"
+      },
+      "description_longdescription": {
+        "displayOrder": 61,
+        "title": " Details (description_longdescription)",
+        "type": "string"
+      },
+      "changeby": {
+        "displayOrder": 62,
+        "title": " Changed By (changeby)",
+        "type": "string"
+      },
+      "endmeasure": {
+        "displayOrder": 63,
+        "title": " End Measure (endmeasure)",
+        "type": "number"
+      },
+      "assettag": {
+        "displayOrder": 64,
+        "title": " Asset Tag (assettag)",
+        "type": "string"
+      },
+      "expectedlife": {
+        "displayOrder": 65,
+        "title": " Expected Life (expectedlife)",
+        "type": "number"
+      },
+      "shiftnum": {
+        "displayOrder": 66,
+        "title": " Shift (shiftnum)",
+        "type": "string"
+      },
+      "sendersysid": {
+        "displayOrder": 67,
+        "title": " Sender System ID (sendersysid)",
+        "type": "string"
+      },
+      "statusdate": {
+        "displayOrder": 68,
+        "title": " Last Changed Date (statusdate)",
+        "type": "string",
+        "format": "date-time"
+      },
+      "budgetcost": {
+        "displayOrder": 69,
+        "title": " Budgeted (budgetcost)",
+        "type": "number"
+      },
+      "tloamhash": {
+        "displayOrder": 70,
+        "title": " Partition ID (tloamhash)",
+        "type": "string"
+      },
+      "autowogen": {
+        "displayOrder": 71,
+        "title": " Automatically Generate Work Orders (autowogen)",
+        "type": "boolean"
+      },
+      "sourcesysid": {
+        "displayOrder": 72,
+        "title": " Source System ID (sourcesysid)",
+        "type": "string"
+      },
+      "calnum": {
+        "displayOrder": 73,
+        "title": " Calendar (calnum)",
+        "type": "string"
+      },
+      "ownersysid": {
+        "displayOrder": 74,
+        "title": " Owner System ID (ownersysid)",
+        "type": "string"
+      },
+      "ytdcost": {
+        "displayOrder": 75,
+        "title": " YTD Cost (ytdcost)",
+        "type": "number"
+      },
+      "pmnextfaildt": {
+        "displayOrder": 76,
+        "title": " Predicted next failure date (pmnextfaildt)",
+        "type": "string",
+        "format": "date-time"
+      },
+      "moved": {
+        "displayOrder": 77,
+        "title": " Moved (moved)",
+        "type": "boolean"
+      },
+      "toolcontrolaccount": {
+        "displayOrder": 78,
+        "title": " Control Account (toolcontrolaccount)",
+        "type": "string"
+      },
+      "pluscismte": {
+        "displayOrder": 79,
+        "title": " Is M&TE (pluscismte)",
+        "type": "boolean"
+      },
+      "assethealth": {
+        "displayOrder": 80,
+        "title": " Asset Health (assethealth)",
+        "type": "number"
+      },
+      "totalcost": {
+        "displayOrder": 81,
+        "title": " Total Cost (totalcost)",
+        "type": "number"
+      },
+      "pluscduedate": {
+        "displayOrder": 82,
+        "title": " Calibration Due Date (pluscduedate)",
+        "type": "string",
+        "format": "date-time"
+      },
+      "tloampartition": {
+        "displayOrder": 83,
+        "title": " Partition (tloampartition)",
+        "type": "boolean"
+      },
+      "siteid": {
+        "displayOrder": 84,
+        "title": " Site (siteid)",
+        "type": "string"
+      },
+      "unchargedcost": {
+        "displayOrder": 85,
+        "title": " Uncharged Cost (unchargedcost)",
+        "type": "number"
+      },
+      "pluscmodelnum": {
+        "displayOrder": 86,
+        "title": " Model Number (pluscmodelnum)",
+        "type": "string"
+      },
+      "returnedtovendor": {
+        "displayOrder": 87,
+        "title": " Returned To Vendor (returnedtovendor)",
+        "type": "boolean"
+      },
+      "changepmstatus": {
+        "displayOrder": 88,
+        "title": " Change the Status of All Associated PMs to Inactive (changepmstatus)",
+        "type": "boolean"
+      },
+      "lrm": {
+        "displayOrder": 89,
+        "title": " LRM (lrm)",
+        "type": "string"
+      },
+      "changedate": {
+        "displayOrder": 90,
+        "title": " Changed Date (changedate)",
+        "type": "string",
+        "format": "date-time"
+      },
+      "templateid": {
+        "displayOrder": 91,
+        "title": " Asset Template (templateid)",
+        "type": "string"
+      },
+      "orgid": {
+        "displayOrder": 92,
+        "title": " Organization (orgid)",
+        "type": "string"
+      },
+      "pluscsolution": {
+        "displayOrder": 93,
+        "title": " Buffer Solution Flag (pluscsolution)",
+        "type": "boolean"
+      },
+      "removefromactiveroutes": {
+        "displayOrder": 94,
+        "title": " Remove Asset Reference from Active Routes (removefromactiveroutes)",
+        "type": "boolean"
+      },
+      "itemnum": {
+        "displayOrder": 95,
+        "title": " Rotating Item (itemnum)",
+        "type": "string"
+      },
+      "itemsetid": {
+        "displayOrder": 96,
+        "title": " Item Set (itemsetid)",
+        "type": "string"
+      },
+      "plusclploc": {
+        "displayOrder": 97,
+        "title": " Loop Location (plusclploc)",
+        "type": "string"
+      },
+      "eq24": {
+        "displayOrder": 98,
+        "title": " Eq24 (eq24)",
+        "type": "number"
+      },
+      "islinear": {
+        "displayOrder": 99,
+        "title": " Linear (islinear)",
+        "type": "boolean"
+      },
+      "eq23": {
+        "displayOrder": 100,
+        "title": " Eq23 (eq23)",
+        "type": "string",
+        "format": "date-time"
+      },
+      "iscalibration": {
+        "displayOrder": 101,
+        "title": " Calibration (iscalibration)",
+        "type": "boolean"
+      },
+      "serialnum": {
+        "displayOrder": 102,
+        "title": " Serial # (serialnum)",
+        "type": "string"
+      },
+      "downtimereport": {
+        "displayOrder": 103,
+        "title": "DOWNTIMEREPORT",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "currentstatus": {
+              "displayOrder": 1,
+              "title": " Current Status (currentstatus)",
+              "type": "string"
+            },
+            "code": {
+              "displayOrder": 2,
+              "title": " Downtime Code (code)",
+              "type": "string"
+            },
+            "description_longdescription": {
+              "displayOrder": 3,
+              "title": " Long Description (description_longdescription)",
+              "type": "string"
+            },
+            "isdowntimereport": {
+              "displayOrder": 4,
+              "title": " Down Time Report (isdowntimereport)",
+              "type": "string"
+            },
+            "description": {
+              "displayOrder": 5,
+              "title": " Description (description)",
+              "type": "string"
+            },
+            "operational": {
+              "displayOrder": 6,
+              "title": " Operational (operational)",
+              "type": "string"
+            },
+            "startdate": {
+              "displayOrder": 7,
+              "title": " Start Date (startdate)",
+              "type": "string",
+              "format": "date-time"
+            },
+            "statuschangedate": {
+              "displayOrder": 8,
+              "title": " Status Date (statuschangedate)",
+              "type": "string",
+              "format": "date-time"
+            },
+            "orgid": {
+              "displayOrder": 9,
+              "title": " Organization (orgid)",
+              "type": "string"
+            },
+            "downtime": {
+              "displayOrder": 10,
+              "title": " Hours (downtime)",
+              "type": "number"
+            },
+            "isrunning": {
+              "displayOrder": 11,
+              "title": " Asset Up (isrunning)",
+              "type": "boolean"
+            },
+            "enddate": {
+              "displayOrder": 12,
+              "title": " End Date (enddate)",
+              "type": "string",
+              "format": "date-time"
+            },
+            "statuschangecode": {
+              "displayOrder": 13,
+              "title": " Downtime Code (statuschangecode)",
+              "type": "string"
+            },
+            "startdatesource": {
+              "displayOrder": 14,
+              "title": " Start Date Source (startdatesource)",
+              "type": "string"
+            }
+          }
+        }
+      },
+      "description": {
+        "displayOrder": 104,
+        "title": " Description (description)",
+        "type": "string"
+      },
+      "externalrefid": {
+        "displayOrder": 105,
+        "title": " External Reference ID (externalrefid)",
+        "type": "string"
+      },
+      "pluscsumdir": {
+        "displayOrder": 106,
+        "title": " Applied As (pluscsumdir)",
+        "type": "string"
+      },
+      "defaultrepfac": {
+        "displayOrder": 107,
+        "title": " Default Repair Facility (defaultrepfac)",
+        "type": "string"
+      },
+      "plusciscontam": {
+        "displayOrder": 108,
+        "title": " Is Contaminated (plusciscontam)",
+        "type": "boolean"
+      },
+      "warrantyexpdate": {
+        "displayOrder": 109,
+        "title": " Warranty Expiration Date (warrantyexpdate)",
+        "type": "string",
+        "format": "date-time"
+      },
+      "assetspec": {
+        "displayOrder": 110,
+        "title": "ASSETSPEC",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "es01": {
+              "displayOrder": 1,
+              "title": " Es01 (es01)",
+              "type": "string"
+            },
+            "linkedtosection": {
+              "displayOrder": 2,
+              "title": " Linked to Section (linkedtosection)",
+              "type": "string"
+            },
+            "startassetfeatureid": {
+              "displayOrder": 3,
+              "title": " Start Asset Feature ID (startassetfeatureid)",
+              "type": "number"
+            },
+            "linkedtoattribute": {
+              "displayOrder": 4,
+              "title": " Linked to Attribute (linkedtoattribute)",
+              "type": "string"
+            },
+            "section": {
+              "displayOrder": 5,
+              "title": " Section (section)",
+              "type": "string"
+            },
+            "numvalue": {
+              "displayOrder": 6,
+              "title": " Numeric Value (numvalue)",
+              "type": "number"
+            },
+            "startmeasure": {
+              "displayOrder": 7,
+              "title": " Start Measure (startmeasure)",
+              "type": "number"
+            },
+            "endoffsetunitid": {
+              "displayOrder": 8,
+              "title": " Unit of End Offset (endoffsetunitid)",
+              "type": "string"
+            },
+            "assetattrid": {
+              "displayOrder": 9,
+              "title": " Attribute (assetattrid)",
+              "type": "string"
+            },
+            "startmeasureunitid": {
+              "displayOrder": 10,
+              "title": " Start Unit of Measure (startmeasureunitid)",
+              "type": "string"
+            },
+            "endzoffset": {
+              "displayOrder": 11,
+              "title": " End Z Offset (endzoffset)",
+              "type": "number"
+            },
+            "continuous": {
+              "displayOrder": 12,
+              "title": " Continuous (continuous)",
+              "type": "boolean"
+            },
+            "es05": {
+              "displayOrder": 13,
+              "title": " Es05 (es05)",
+              "type": "number"
+            },
+            "es04": {
+              "displayOrder": 14,
+              "title": " Es04 (es04)",
+              "type": "string",
+              "format": "date-time"
+            },
+            "es03": {
+              "displayOrder": 15,
+              "title": " Es03 (es03)",
+              "type": "string"
+            },
+            "es02": {
+              "displayOrder": 16,
+              "title": " Es02 (es02)",
+              "type": "string"
+            },
+            "assetspecid": {
+              "displayOrder": 17,
+              "title": " ASSETSPECID (assetspecid)",
+              "type": "number"
+            },
+            "endbasemeasure": {
+              "displayOrder": 18,
+              "title": " End Base Measure (endbasemeasure)",
+              "type": "number"
+            },
+            "changedate": {
+              "displayOrder": 19,
+              "title": " Changed Date (changedate)",
+              "type": "string",
+              "format": "date-time"
+            },
+            "orgid": {
+              "displayOrder": 20,
+              "title": " Organization (orgid)",
+              "type": "string"
+            },
+            "startoffsetunitid": {
+              "displayOrder": 21,
+              "title": " Unit of Start Offset (startoffsetunitid)",
+              "type": "string"
+            },
+            "measureunitid": {
+              "displayOrder": 22,
+              "title": " Unit of Measure (measureunitid)",
+              "type": "string"
+            },
+            "startoffset": {
+              "displayOrder": 23,
+              "title": " Start Offset (startoffset)",
+              "type": "number"
+            },
+            "endassetfeatureid": {
+              "displayOrder": 24,
+              "title": " End Asset Feature ID (endassetfeatureid)",
+              "type": "number"
+            },
+            "endmeasureunitid": {
+              "displayOrder": 25,
+              "title": " End Unit of Measure (endmeasureunitid)",
+              "type": "string"
+            },
+            "endoffset": {
+              "displayOrder": 26,
+              "title": " End Offset (endoffset)",
+              "type": "number"
+            },
+            "mandatory": {
+              "displayOrder": 27,
+              "title": " Mandatory (mandatory)",
+              "type": "boolean"
+            },
+            "itemspecvalchanged": {
+              "displayOrder": 28,
+              "title": " Item Specification Value Changed  (itemspecvalchanged)",
+              "type": "boolean"
+            },
+            "endyoffsetref": {
+              "displayOrder": 29,
+              "title": " End Y Offset Referent (endyoffsetref)",
+              "type": "string"
+            },
+            "startzoffset": {
+              "displayOrder": 30,
+              "title": " Start Z Offset (startzoffset)",
+              "type": "number"
+            },
+            "displaysequence": {
+              "displayOrder": 31,
+              "title": " Display Sequence (displaysequence)",
+              "type": "number"
+            },
+            "startzoffsetref": {
+              "displayOrder": 32,
+              "title": " Start Z Offset Referent (startzoffsetref)",
+              "type": "string"
+            },
+            "startyoffsetref": {
+              "displayOrder": 33,
+              "title": " Start Y Offset Referent (startyoffsetref)",
+              "type": "string"
+            },
+            "classstructureid": {
+              "displayOrder": 34,
+              "title": " Class Structure (classstructureid)",
+              "type": "string"
+            },
+            "basemeasureunitid": {
+              "displayOrder": 35,
+              "title": " Unit of Base Measure (basemeasureunitid)",
+              "type": "string"
+            },
+            "changeby": {
+              "displayOrder": 36,
+              "title": " Changed By (changeby)",
+              "type": "string"
+            },
+            "endmeasure": {
+              "displayOrder": 37,
+              "title": " End Measure (endmeasure)",
+              "type": "number"
+            },
+            "startyoffset": {
+              "displayOrder": 38,
+              "title": " Start Y Offset (startyoffset)",
+              "type": "number"
+            },
+            "linearassetspecid": {
+              "displayOrder": 39,
+              "title": " Linear Specification Id (linearassetspecid)",
+              "type": "number"
+            },
+            "tablevalue": {
+              "displayOrder": 40,
+              "title": " Table Value (tablevalue)",
+              "type": "string"
+            },
+            "endyoffset": {
+              "displayOrder": 41,
+              "title": " End Y Offset (endyoffset)",
+              "type": "number"
+            },
+            "inheritedfromitem": {
+              "displayOrder": 42,
+              "title": " Inherited from Item (inheritedfromitem)",
+              "type": "boolean"
+            },
+            "alnvalue": {
+              "displayOrder": 43,
+              "title": " Alphanumeric Value (alnvalue)",
+              "type": "string"
+            },
+            "startbasemeasure": {
+              "displayOrder": 44,
+              "title": " Start Base Measure (startbasemeasure)",
+              "type": "number"
+            },
+            "endzoffsetref": {
+              "displayOrder": 45,
+              "title": " End Z Offset Referent (endzoffsetref)",
+              "type": "string"
+            }
+          }
+        }
+      },
+      "direction": {
+        "displayOrder": 111,
+        "title": " Direction (direction)",
+        "type": "string"
+      },
+      "eq12": {
+        "displayOrder": 112,
+        "title": " Eq12 (eq12)",
+        "type": "number"
+      },
+      "eq11": {
+        "displayOrder": 113,
+        "title": " Eq11 (eq11)",
+        "type": "string"
+      },
+      "eq10": {
+        "displayOrder": 114,
+        "title": " Eq10 (eq10)",
+        "type": "string"
+      },
+      "pluscclass": {
+        "displayOrder": 115,
+        "title": " Class (pluscclass)",
+        "type": "string"
+      },
+      "pluscsumread": {
+        "displayOrder": 116,
+        "title": " % READING (pluscsumread)",
+        "type": "string"
+      },
+      "pluscoprgeeu": {
+        "displayOrder": 117,
+        "title": " Units (pluscoprgeeu)",
+        "type": "string"
+      },
+      "deviceid": {
+        "displayOrder": 118,
+        "title": " Device Id (deviceid)",
+        "type": "string"
+      },
+      "invcost": {
+        "displayOrder": 119,
+        "title": " Inventory Cost (invcost)",
+        "type": "number"
+      },
+      "newsite": {
+        "displayOrder": 120,
+        "title": " To Site (newsite)",
+        "type": "string"
+      },
+      "purchaseprice": {
+        "displayOrder": 121,
+        "title": " Purchase Price (purchaseprice)",
+        "type": "number"
+      },
+      "isrunning": {
+        "displayOrder": 122,
+        "title": " Asset Up (isrunning)",
+        "type": "boolean"
+      },
+      "glaccount": {
+        "displayOrder": 123,
+        "title": " GL Account (glaccount)",
+        "type": "string"
+      },
+      "itemtype": {
+        "displayOrder": 124,
+        "title": " Item Type (itemtype)",
+        "type": "string"
+      },
+      "failurecode": {
+        "displayOrder": 125,
+        "title": " Failure Class (failurecode)",
+        "type": "string"
+      },
+      "pluscsumurv": {
+        "displayOrder": 126,
+        "title": " %URV (pluscsumurv)",
+        "type": "string"
+      },
+      "assetid": {
+        "displayOrder": 127,
+        "title": " Asset (assetid)",
+        "type": "number"
+      },
+      "defaultrepfacsiteid": {
+        "displayOrder": 128,
+        "title": " Repair Facility Site (defaultrepfacsiteid)",
+        "type": "string"
+      },
+      "well_maintained": {
+        "displayOrder": 129,
+        "title": " Prescriptive Maintenance on Cloud WELL_MAINTAINED (well_maintained)",
+        "type": "number"
+      },
+      "pluscphyloc": {
+        "displayOrder": 130,
+        "title": " Physical Location (pluscphyloc)",
+        "type": "string"
+      },
+      "location": {
+        "displayOrder": 131,
+        "title": " Location (location)",
+        "type": "string"
+      },
+      "customUniqueId": {
+        "displayOrder": 132,
+        "title": "ID field",
+        "type": "string"
+      },
+      "nextPageToken": {
+        "displayOrder": 133,
+        "title": "Next page token",
+        "type": "string"
+      }
+    },
+    "title": "mxapiasset"
+  },
+  "type": "array",
+  "title": "mxapiasset"
+}
