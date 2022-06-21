@@ -11,8 +11,8 @@
         <filter>
           <filterElementObject type="where">
             <filterElementArray type="and">
-              <filterProperty propertyName="siteid" displayName=" Site (siteid)" propertyValue="BEDFORD" compareAction=""/>
-              <filterProperty propertyName="serialnum" displayName=" Serial # (serialnum)" propertyValue="234RW3" compareAction=""/>
+              <filterProperty propertyName="siteid" displayName=" Site (siteid)" propertyValue="[[$Root/JSON/Data/Site]]" compareAction=""/>
+              <filterProperty propertyName="serialnum" displayName=" Serial # (serialnum)" propertyValue="[[$Root/JSON/Data/SerialNumber]]" compareAction=""/>
             </filterElementArray>
           </filterElementObject>
           <queryProperties limit="3" allowTruncation="true" paginationType="TOKEN"/>
